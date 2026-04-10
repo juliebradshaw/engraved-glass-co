@@ -128,12 +128,13 @@ footer {
    .announcement span { 
        display: inline-block;
        white-space: nowrap;
-       animation: scrollText 70s linear infinite;
+       animation: scrollText 60s linear infinite;
+       padding-right: 50px;
     }
     
    @keyframes scrollText {
-       0% { transform: translateX(50%); }
-       100% { transform: translateX(0%); }
+       0% { transform: translateX(0%); }
+       100% { transform: translateX(-50%); }
    }
 
     @keyframes bannerColor {
