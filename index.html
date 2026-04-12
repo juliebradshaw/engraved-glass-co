@@ -212,13 +212,38 @@ footer {
         box-shadow: 0 4px 12px rgba( 0,0,0,0.08);
 
         .price {
-            font-si=ze: 18px;
+            font-size: 18px;
             font-weight: bold;
             color: #d88ca3;
             margin: 10px 0;
         }
             
-                  
+     @media (max-width: 768) {
+         .layout {
+             flex-direction: column;
+         }
+         .side-bar {
+             width; 100%;
+             flex-direction: row;
+        overflow: auto;
+        gap: 10px;
+    }
+    .category-box {
+        min-width: 140px;
+        text-align: centre;
+    }
+    .contect {
+        width: 100%;
+    }
+    .product img {
+        width: 100%;
+    }
+    .logo {
+        width: 220px;
+    }
+
+    }
+    
 </style>
     
 </head>
