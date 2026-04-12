@@ -187,20 +187,41 @@ footer {
         width: 100%;
         border-radius: 8px;
 }
-    @media (max-width: 768px {
+    @media (max-width: 768px) {
         .layout {
             flex-direction: column;
+            align-items: centre;
 }
         .sidebar {
+           width: 100%;
+            display: flex;
             flex-direction: row;
             overflow-x: auto;
+            gap: 10px;
+            padding: 10px;
 }
         .category-box {
-            min-width: 140px;
+            min-width: 130px;
+            text-align: centre;
+            flex-shrink: 0;
 }
+        .content {
+            width: 100%;
+        }
+        .product img {
+            max-width: 95%;
+            margin: 20px auto;
+            text-align: centre;
+        }
+        
         .logo {
-            width: 220px;
+            width: 180px;
+            max-width: 90%;
  }
+        header { 
+            text-align: centre;
+            padding: 15px;
+        }
 }
     .product {
         text-align: centre;
